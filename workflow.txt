@@ -1,0 +1,61 @@
+1. ✅ Intro Section
+Purpose: First impression, who you are, what you do.
+
+Include: Name, short tagline (e.g., “Full-Stack Web Developer”), a CTA (“See my work” or “Hire me”)
+
+Style: Visually engaging, clean hero section with a photo or illustration.
+
+2. ✅ About Me
+Purpose: Share your background and journey into web development.
+
+Include: Origin story, values, what excites you about tech.
+
+3. ✅ Tech Stack
+Purpose: Show tools and technologies you’re proficient with.
+
+Format: Grid of icons/logos with tooltips or brief descriptions.
+
+✅ Optional Enhancement: Add tool usage context (e.g., "React – used in frontend of 3 major projects").
+
+4. 🔁 Skills Section (with Projects)
+Purpose: Demonstrates not just what you know, but how you've used it.
+
+Suggestion: Split this into two sub-sections:
+
+Skills Overview: Categorize into frontend, backend, tools, soft skills
+
+Featured Projects: Show 2–3 projects with brief descriptions, tech used, live/demo links
+
+🔍 Projects build trust, especially when linked to GitHub or live demos.
+
+5. ✅ Currently Exploring
+Purpose: Show you're learning and evolving.
+
+Great for: Topics like TypeScript, AI APIs, Svelte, Web3, design systems, etc.
+
+Format: Badges, icons, or short bullet points.
+
+6. ✅ Interests
+Purpose: Humanizes you; shows personality and curiosity.
+
+Include: Tech-related hobbies (like tinkering with Arduino), or non-tech passions (music, books, travel, etc.)
+
+Format: Icons + short blurbs work well.
+
+7. ✅ Connect with Me
+Purpose: Convert visitors into contacts or followers.
+
+Include:
+
+Social links (GitHub, LinkedIn, Twitter)
+
+Email or contact form
+
+Optional: Calendly or similar for scheduling chats
+
+8. ✅ Philosophy / Values
+Purpose: Leaves a lasting impression, shows your mindset.
+
+Great for: Statements about clean code, accessibility, collaboration, or life-long learning.
+
+Keep it brief but impactful.

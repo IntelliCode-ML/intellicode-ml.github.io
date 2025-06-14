@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Navbar/style.css">
+    <link rel="stylesheet" href="Intro/style.css">
+    <link rel="stylesheet" href="About/style.css">
+    <link rel="stylesheet" href="Tech Slack/style.css">
+    <link rel="stylesheet" href="Skills/style.css">
+    <link rel="stylesheet" href="Interest/style.css">
+    <link rel="stylesheet" href="Contact/style.css">
+    <link rel="stylesheet" href="Philosophy/style.css">
+</head>
+<style>
+    /* import montserrat font */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+    /* Gloabl CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        background-image: linear-gradient(#080049, #380070);
+        background-image: linear-gradient(to right, #080049, #380070);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    section{
+        min-height: 70vh;
+    }
+</style>
+<body>
+    <header>
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    
+        <div class="overlay" id="overlay"></div>
+
+        <div class="logo">
+            <img src="images/IntelliCode Logo.png" alt="" />
+            <h1>IntelliCode</h1>
+        </div>
+    
+        <nav id="nav">
+            <a href="#">Home<span></span></a>
+            <a href="#About">About<span></span></a>
+            <a href="projects.html">Projects<span></span></a>
+            <a href="#Contact">Contact<span></span></a>
+        </nav>
+
+        <div class="get-started">
+            <button class="btn">Let's Collaborate</button>
+        </div>
+    </header>
+
+    <!-- Intro section -->
+     <section href="#Home" class="intro">
+        <div class="intro-content">
+            <h2 class="animated-text">Hello World!</h2>
+            <p>I'm Syed. A passionate software engineer.</p>
+            <h1>"Building Exceptional Experiences"</h1>
+        </div>
+     </section>
+
+     <!-- About Me section -->
+      <section id="About" class="about">
+        <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-text">
+                <p class="animate-up">I'm a developer with a strong focus on backend development, but I also have experience across the full web stack. Over time, I've worked on a variety of projects, including web scraping tools, AI-powered bots, and automation programs that streamline repetitive tasks.
+                    </p>
+                <p class="animate-up delay-1">I'm hands-on by nature and love digging into real-world problems with practical solutions.</p>
+                <p class="animate-up delay-2"> My journey into programming began with a fascination for how the internet works — and it quickly turned into a deep passion for building clean, efficient, and meaningful digital products.</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Tech Stack Section -->
+       <section href="#tech-stack" class="tech-stack">
+           <h2 class="section-title">Tech Stack</h2>
+           <div class="tech-container">
+               <div class="tech-category">
+                   <h3>Languages</h3>
+                   <div class="tech-items">
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                           <span>JavaScript</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                           <span>Python</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                           <span>TypeScript</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                           <span>C++</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" alt="Rust" />
+                           <span>Rust</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+                           <span>HTML</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                           <span>CSS</span>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="tech-category">
+                   <h3>Frameworks & Libraries</h3>
+                   <div class="tech-items">
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                           <span>React</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+                           <span>Node.js</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" />
+                           <span>Express</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+                           <span>Django</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium" />
+                           <span>Selenium</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://playwright.dev/img/playwright-logo.svg" alt="Playwright" />
+                           <span>Playwright</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="Numpy" />
+                           <span>Numpy</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" />
+                           <span>Pandas</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" />
+                           <span>PyTorch</span>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="tech-category">
+                   <h3>Tools</h3>
+                   <div class="tech-items">
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                           <span>Git</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+                           <span>Docker</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" />
+                           <span>VSCode</span>
+                       </div>
+                       <div class="tech-item">
+                           <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" />
+                           <span>Postman</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <!-- Skills Section -->
+        <section href="#skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Web Development" />
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-info">
+                        <div class="proficiency">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="Professional" />
+                            <span>Professional</span>
+                        </div>
+                    </div>
+                    <button class="project-btn">View my projects</button>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Data Scraping" />
+                    </div>
+                    <h3>Data Scraping</h3>
+                    <div class="skill-info">
+                        <div class="proficiency">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Professional" />
+                            <span>Professional</span>
+                        </div>
+                    </div>
+                    <button class="project-btn">View my projects</button>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-plain.svg
+                        " alt="Machine Learning" />
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-info">
+                        <div class="proficiency">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Learning" />
+                            <span>Still Learning</span>
+                        </div>
+                    </div>
+                    <button class="project-btn">View my projects</button>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="Deep Learning" />
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <div class="skill-info">
+                        <div class="proficiency">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="Learning" />
+                            <span>Still Learning</span>
+                        </div>
+                    </div>
+                    <button class="project-btn">View my projects</button>
+
+                </div>
+            </div>
+
+            <style>
+                
+            </style>
+        </section>
+
+        <!-- Interest Section -->
+        <section id="interests" class="interests">
+            <h2 class="section-title">Interests & Hobbies</h2>
+            <div class="interests-container">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Electronics" />
+                    </div>
+                    <h3>Electronics</h3>
+                    <p>Passionate about Arduino projects and robotics. Love building and tinkering with electronic circuits.</p>
+                </div>
+
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972545.png" alt="Gaming" />
+                    </div>
+                    <h3>Gaming</h3>
+                    <p>Avid gamer who enjoys both competitive and story-driven games. Always up for a good gaming session!</p>
+                </div>
+
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1179/1179120.png" alt="Movies" />
+                    </div>
+                    <h3>Movies & TV Shows</h3>
+                    <p>Movie enthusiast who enjoys exploring different genres and discussing cinematic experiences.</p>
+                </div>
+
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2936/2936886.png" alt="Reading" />
+                    </div>
+                    <h3>Reading</h3>
+                    <p>Love diving into tech books and sci-fi novels. Always eager to learn something new.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact me or collaborate with me section -->
+        <section id="Contact" class="contact">
+            <h2 class="section-title">Let's Connect!</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                    <div class="email-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Email" />
+                        <a href="mailto:intellicode.ml@gmail.com">intellicode.ml@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3>Connect with Me</h3>
+                    <div class="social-grid">
+                        <a href="https://github.com/IntelliCode-ML" class="social-item" target="_blank">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/intelli-code-80a07a338/" class="social-item" target="_blank">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-item" target="_blank">
+                            <img src="images/discord.png" alt="Discord" />
+                            <span>Discord</span>
+                        </a>
+                        <a href="#" class="social-item" target="_blank">
+                            <img src="https://www.fiverr.com/intellicodeml" alt="Fiverr" />
+                            <span>Fiverr</span>
+                        </a>
+                        <a href="#" class="social-item" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968872.png" alt="Upwork" />
+                            <span>Upwork</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy To attract client -->
+        <section id="philosophy" class="philosophy">
+            <h2 class="section-title">My Development Philosophy</h2>
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2091/2091947.png" alt="Innovation" />
+                    </div>
+                    <h3>Innovation First</h3>
+                    <p>Pushing boundaries with cutting-edge solutions while maintaining practical usability.</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2091/2091948.png" alt="Quality" />
+                    </div>
+                    <h3>Quality Driven</h3>
+                    <p>Every line of code is crafted with precision, ensuring robust and maintainable solutions.</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2091/2091949.png" alt="Collaboration" />
+                    </div>
+                    <h3>Collaborative Spirit</h3>
+                    <p>Working together to transform ideas into exceptional digital experiences.</p>
+                </div>
+            </div>
+
+            <div class="philosophy-cta">
+                <div class="cta-content">
+                    <h3>Ready to Build Something Amazing?</h3>
+                    <p>Let's collaborate to create innovative solutions that make a difference.</p>
+                    <a href="#Contact" class="cta-button">Start a Conversation</a>
+                </div>
+                <div class="cta-decoration">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2091/2091950.png" alt="Decoration" class="floating" />
+                </div>
+            </div>
+        </section>
+
+    </body>
+<script src="Navbar/script.js"></script>
+<script>
+    // Intersection Observer for scroll animations
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    // Observe all animated elements
+    document.querySelectorAll('.animate-up, .tech-item, .animated-text, .section-title, .skill-card, .interest-card, .social-item, .philosophy-card, .philosophy-cta').forEach((el) => {
+        observer.observe(el);
+    });
+</script>
+
+<style>
+    /* Initial state for animations */
+    .animate-up, .tech-item, .animated-text, .section-title {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.6s ease-out;
+    }
+
+    /* Animated state when element becomes visible */
+    .animate-up.show, .tech-item.show, .animated-text.show, .section-title.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Stagger animations for tech items */
+    .tech-item {
+        transition-delay: calc(var(--order) * 100ms);
+    }
+
+    /* Add animation order to tech items */
+    .tech-items {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .tech-items .tech-item:nth-child(1) { --order: 1; }
+    .tech-items .tech-item:nth-child(2) { --order: 2; }
+    .tech-items .tech-item:nth-child(3) { --order: 3; }
+    .tech-items .tech-item:nth-child(4) { --order: 4; }
+    .tech-items .tech-item:nth-child(5) { --order: 5; }
+    .tech-items .tech-item:nth-child(6) { --order: 6; }
+    .tech-items .tech-item:nth-child(7) { --order: 7; }
+    .tech-items .tech-item:nth-child(8) { --order: 8; }
+    .tech-items .tech-item:nth-child(9) { --order: 9; }
+</style>
+</html>

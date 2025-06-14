@@ -1,0 +1,56 @@
+.intro {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro-content h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #0ef, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bounce 4s ease-in infinite;
+}
+
+.intro-content h1 {
+    font-size: 2.5em;
+    margin-top: 50px;
+    font-weight: 100;
+    color: rgb(81, 121, 148);
+}
+
+.intro-content p {
+    font-size: 2.5em;
+    color: #9e9e9e;
+}
+
+@media (max-width: 768px) {
+    .intro-content h2 {
+        font-size: 2.5em;
+    }
+
+    .intro-content h1 {
+        font-size: 1.6em;
+    }
+
+    .intro-content p {
+        font-size: 1.2em;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
