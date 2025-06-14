@@ -184,6 +184,10 @@ nav a:hover span {
 }
 
 @media (max-width: 768px) {
+    header{
+        align-items: center;
+        justify-content: space-between;
+    }
     nav {
         flex-direction: column;
         position: fixed;

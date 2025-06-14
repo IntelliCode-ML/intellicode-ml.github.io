@@ -130,5 +130,10 @@
     .contact-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        align-items: center;
+        justify-items: center;
+    }
+    .contact-info {
+        font-size: 1em;
     }
 }
